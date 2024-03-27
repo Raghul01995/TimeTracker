@@ -1,0 +1,30 @@
+.timer_set {
+  display: flex;
+  justify-content: flex-start;
+}
+.btn-timer {
+  padding: 0.3rem;
+  font-size: large;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.start {
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(0, 0, 255, 0.712);
+  color: white;
+}
+.start:hover{
+    transform: scale(1.1);
+
+}
+.stop:hover{
+    transform: scale(1.1);
+
+}
+
+.stop {
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(255, 0, 0, 0.814);
+  color: white;
+}

@@ -1,0 +1,54 @@
+.modal_container{
+    width: 300px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    position: absolute;
+}
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    z-index: 1;
+}
+.modal_input{
+    padding:0.2rem;
+    width: 70%;
+    align-self: center;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    border-color: white;
+    
+}
+.modal_input:hover{
+    border-color: black;
+}
+.modal_para{
+    margin: 1rem;
+    font-size: large;
+    align-self: center;
+
+}
+.modal_btn{
+    width: fit-content;
+    align-self: center;
+    font-size: large;
+    background-color: whitesmoke;
+    color: black;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    
+}
+.modal_btn:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: rgba(0, 0, 255, 0.723);
+    color: whitesmoke;
+}
+.cancel_popup{
+    font-size: large;
+    display: block;
+    text-align: end;
+
+}
